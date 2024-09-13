@@ -15,10 +15,10 @@
  * =============================================================================
  */
 
-import * as faceLandmarksDetection from '@tensorflow-models/face-landmarks-detection';
-import * as tf from '@tensorflow/tfjs-core';
+import * as faceLandmarksDetection from 'https://cdn.jsdelivr.net/npm/@tensorflow-models/face-landmarks-detection';
+import * as tf from 'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core';
 
-import * as params from './params';
+import * as params from './params.js';
 
 /**
  * Records each flag's default value under the runtime environment and is a
