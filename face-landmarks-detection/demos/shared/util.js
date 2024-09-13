@@ -14,11 +14,11 @@
  * limitations under the License.
  * =============================================================================
  */
-import * as faceLandmarksDetection from '@tensorflow-models/face-landmarks-detection';
-import * as tf from '@tensorflow/tfjs-core';
+import * as faceLandmarksDetection from 'https://cdn.jsdelivr.net/npm/@tensorflow-models/face-landmarks-detection';
+import * as tf from 'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core';
 
-import {GREEN, LABEL_TO_COLOR, NUM_IRIS_KEYPOINTS, NUM_KEYPOINTS, RED, TUNABLE_FLAG_VALUE_RANGE_MAP} from './params';
-import {TRIANGULATION} from './triangulation';
+import {GREEN, LABEL_TO_COLOR, NUM_IRIS_KEYPOINTS, NUM_KEYPOINTS, RED, TUNABLE_FLAG_VALUE_RANGE_MAP} from './params.js';
+import {TRIANGULATION} from './triangulation.js';
 
 export function isiOS() {
   return /iPhone|iPad|iPod/i.test(navigator.userAgent);
