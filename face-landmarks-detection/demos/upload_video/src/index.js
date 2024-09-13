@@ -15,17 +15,17 @@
  * =============================================================================
  */
 
-import '@tensorflow/tfjs-backend-webgl';
+import 'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl';
 
-import * as tfjsWasm from '@tensorflow/tfjs-backend-wasm';
+import * as tfjsWasm from 'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm';
 
 tfjsWasm.setWasmPaths(
     `https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm@${
         tfjsWasm.version_wasm}/dist/`);
 
-import * as tf from '@tensorflow/tfjs-core';
+import * as tf from 'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core';
 
-import '@tensorflow-models/face-detection';
+import 'https://cdn.jsdelivr.net/npm/@tensorflow-models/face-detection';
 
 import {setupStats} from './shared/stats_panel';
 import {Context} from './camera';
