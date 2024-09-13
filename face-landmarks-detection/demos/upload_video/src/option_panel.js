@@ -15,7 +15,7 @@
  * =============================================================================
  */
 
-import {setupModelFolder} from './shared/option_panel';
+import {setupModelFolder} from './shared/option_panel.js';
 
 export async function setupDatGui(urlParams) {
   const gui = new dat.GUI({width: 300});

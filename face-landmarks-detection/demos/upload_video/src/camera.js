@@ -15,7 +15,7 @@
  * =============================================================================
  */
 
-import {drawResults} from './shared/util';
+import {drawResults} from './shared/util.js';
 
 export class Context {
   constructor() {
