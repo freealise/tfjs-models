@@ -27,11 +27,11 @@ import * as tf from 'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core';
 
 import 'https://cdn.jsdelivr.net/npm/@tensorflow-models/face-detection';
 
-import {setupStats} from './shared/stats_panel';
-import {Context} from './camera';
-import {setupDatGui} from './option_panel';
-import {STATE, createDetector} from './shared/params';
-import {setBackendAndEnvFlags} from './shared/util';
+import {setupStats} from './shared/stats_panel.js';
+import {Context} from './camera.js';
+import {setupDatGui} from './option_panel.js';
+import {STATE, createDetector} from './shared/params.js';
+import {setBackendAndEnvFlags} from './shared/util.js';
 
 let detector, camera, stats;
 let startInferenceTime, numInferences = 0;
